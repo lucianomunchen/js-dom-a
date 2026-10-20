@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rolex kolekcija</title>
+
+    <link rel="stylesheet" href="dist/output.css">
+    <script type="module" src="js/podaci.js"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <main class="mx-auto max-w-5xl p-4">
+
+        <header class="mb-8 rounded-lg bg-emerald-900 p-6 text-white">
+            <h1 class="text-3xl font-bold">ROLEX</h1>
+
+            <p class="mt-2">
+                Kolekcija poznatih luksuznih satova.
+            </p>
+        </header>
+
+        <section class="mb-8">
+            <h2 class="mb-2 text-2xl font-bold">
+                Naši satovi
+            </h2>
+
+            <p id="count" class="text-gray-500"></p>
+        </section>
+
+        <p id="loading" class="mb-4">
+            Učitavanje satova...
+        </p>
+
+        <div id="list" class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+        </div>
+
+        <p id="empty"
+           class="hidden rounded-lg bg-white p-4 text-center">
+            Nema satova za prikaz.
+        </p>
+
+        <section class="mt-8 rounded-lg bg-white p-5">
+            <h2 class="mb-2 text-xl font-bold">O brendu Rolex</h2>
+
+            <p class="leading-6 text-gray-600">
+                Rolex je poznati švicarski proizvođač satova.
+                Poznat je po kvaliteti, preciznosti i klasičnom dizajnu.
+            </p>
+
+            <a href="https://www.rolex.com/"
+               target="_blank"
+               class="mt-3 inline-block text-emerald-800 underline">
+                Službena stranica
+            </a>
+        </section>
+
+        <footer class="mt-8 border-t border-gray-300 py-4 text-center text-sm text-gray-500">
+            Rolex kolekcija - HTML i Tailwind CSS
+        </footer>
+
+    </main>
+
+</body>
+</html>
